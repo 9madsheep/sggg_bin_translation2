@@ -106,12 +106,13 @@ This file is the fully translated, playable version of the game’s main binary.
 ## 🤝 Credits
 
 Developed to support the English translation and modification of the SGGG main binary.
+
 Thanks to:
-megavolt85 (bin hacks)
-Derek Pascarella aka ateam (bin hacks)
-Exxistance (translation, image edits)
-VincentNL (mrg editor)
-mr.nobody (video edits, image edits)
-Sixfortyfive (translation review)
-LostinLoc 
-LewisJFC (DCJY)
+* megavolt85 (bin hacks)
+* Derek Pascarella aka ateam (bin hacks)
+* Exxistance (translation, image edits)
+* VincentNL (mrg editor)
+* mr.nobody (video edits, image edits)
+* Sixfortyfive (translation review)
+* LostinLoc 
+* LewisJFC (DCJY)

@@ -1,6 +1,6 @@
 ﻿# SGGG BIN Translation Tool
 
-*A utility for translating the main game binary of **SGGG** after applying the required font patch.*
+*A utility for translating the main game binary of **SGGG** after applying the required binary editing.*
 
 
 ---
@@ -116,3 +116,4 @@ Thanks to:
 * Sixfortyfive (translation review)
 * LostinLoc 
 * LewisJFC (DCJY)
+

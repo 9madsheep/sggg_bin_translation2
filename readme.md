@@ -10,12 +10,18 @@
 This tool provides a simple workflow for translating the main SGGG game binary (`1_SGGG.BIN`).
 Since the original binary uses **Shift-JIS encoding** and a fixed-width Japanese font layout, you must apply an **xdelta patch** beforehand.
 This patch converts the game to use normal fonts suitable for English and expands the binary to fit longer strings (Only version v1.022 of the game is compatible).
+Some notable patches:
+* **megavolt85**: Half wide font 12x24 and support ASCII charset
+* **Derek Pascarella aka ateam**: Hacked bios font func and extended the main bin file, fix for char name entry
+* **MadSheep**: Skill space fix and multiple choice dialog space fix
 
-After patching, the tool allows you to:
+After xdelta patch, the tool allows you to:
 
 * View and translate text entries from the binary
 * Save translation progress
 * Generate a fully patched, playable translated binary
+
+Note: the provided **sggg_data.txt** contains the translations the english translation project made
 
 ---
 
@@ -25,7 +31,7 @@ Make sure the following files are present:
 
 | File                        | Description                                                   |
 | --------------------------- | ------------------------------------------------------------- |
-| `1_SGGG.BIN`                | **Patched** main game binary (created using the xdelta patch) |
+| `1_SGGG.BIN`                | main game binary (created using the xdelta patch) |
 | `sggg_bin_translation2.exe` | The translation utility                                       |
 | `sggg_data.txt`             | CSV-like table with all string addresses inside the binary    |
 
@@ -50,7 +56,7 @@ Original 1_SGGG.BIN → 1_SGGG.BIN.xdelta → Patched 1_SGGG.BIN
 Place these files together in the **root folder** of the project:
 
 * `sggg_bin_translation2.exe`
-* `1_SGGG.BIN` (patched version)
+* `1_SGGG.BIN` (created using the xdelta patch)
 * `sggg_data.txt`
 
 ---
@@ -116,4 +122,3 @@ Thanks to:
 * Sixfortyfive (translation review)
 * LostinLoc 
 * LewisJFC (DCJY)
-

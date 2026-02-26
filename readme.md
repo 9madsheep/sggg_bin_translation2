@@ -116,9 +116,11 @@ Developed to support the English translation and modification of the SGGG main b
 Thanks to:
 * megavolt85 (bin hacks)
 * Derek Pascarella aka ateam (bin hacks)
+* pomegd (bin text dump)
 * Exxistance (translation, image edits)
 * VincentNL (mrg editor)
 * mr.nobody (video edits, image edits)
 * Sixfortyfive (translation review)
 * LostinLoc 
 * LewisJFC (DCJY)
+

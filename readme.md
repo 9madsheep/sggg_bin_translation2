@@ -70,6 +70,9 @@ sggg_bin_translation2.exe
 ```
 
 You can now browse, edit, and translate all text strings defined in `sggg_data.txt`.
+**Note:** If the bytes field is highlighted in red, it indicates that a pointer is required for text 
+relocation. If the pointers column is unpopulated, you can press the “Find Pointers” button to 
+allow the program to automatically locate and populate the required entries.
 
 ---
 
